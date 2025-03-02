@@ -35,7 +35,7 @@ export default function Home() {
         {/* Flower SVGs container */}
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2">
           <Image
-            src="/assets/backflower.svg"
+            src="/assets/backFlower.svg"
             alt="Back Flower"
             width={600}
             height={600}
