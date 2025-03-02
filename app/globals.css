@@ -1,0 +1,39 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'Chrome Slab';
+  src: url('/fonts/Chrome Slab Book Cover Cosmetic Hotel Serif Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  background-color: azure;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  cursor: none;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 66px;
+  height: 66px;
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+}
+
+.custom-cursor-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 34px;
+  height: 34px;
+  transform: translate(-50%, -50%);
+}
